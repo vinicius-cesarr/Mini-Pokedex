@@ -1,0 +1,49 @@
+.back{
+    text-decoration: none;
+    color:  black;
+}
+
+.back :hover{
+    color: rgb(255, 255, 255);
+}
+
+.bgorange{
+    background-color: rgb(252, 126, 23);
+}
+
+section{
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+.type1{
+    border-radius: 200px;
+    background-color: rgb(169, 202, 209);
+    color: rgb(255, 255, 255);
+}
+
+.type2{
+    border-radius: 200px;
+    color: rgb(255, 255, 255);
+}
+
+.txtg{
+    color: grey;
+}
+
+.z{
+    overflow: hidden;
+}
+
+.z img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.z:hover img{
+    -moz-transition: scale(1*1);
+    -webkit-transition: scale(1.1);
+    transform: scale(1.1);
+}
